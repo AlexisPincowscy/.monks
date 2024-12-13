@@ -1,0 +1,192 @@
+body{
+    background-color: #EAE8E4;
+    
+}
+nav{
+    max-width: 40%;
+}
+.logo-monks{
+    overflow: hidden;
+    padding: 0;
+    max-width: 60%;
+    float: right;
+    position: relative;
+}
+#logo2{
+    position: absolute;
+    left: 6px;
+}
+.hero{
+    height: 480px;
+    background-color: #2D2D2D;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 100%;
+}
+#nome-bar{
+    color: azure;
+    font-weight: bolder;
+    font-size: 35px;
+}
+#botao-nav{
+    color: azure;
+}
+.navbar-nav a{
+    color: azure;
+}
+.navbar{
+    padding-left: 30px;
+}
+.texto-hero{
+    padding-left: 30px;
+}
+h1{
+    color:azure;
+    font-size: 3rem;
+}
+.texto-hero p{
+    color: azure;
+    padding-top: 10px;
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+.scroll{
+    margin-left: 30%;
+    margin-top: 40px;
+}
+#scroll{
+    position: absolute;
+    margin-left: -55px;
+    margin-top: -10px;
+}
+.txt-produtos{
+    padding: 25px;
+}
+.txt-produtos h2{
+    font-weight: 10px;
+    font-size: 2rem;
+    align-items: center;
+    padding-bottom: none;
+}
+.txt-produtos p{
+    font-size: 1.5rem;
+    text-align: justify;
+    padding-top: none;
+    font-weight: none;
+    color: black;
+}
+.caixa{
+    border-radius: 5px;
+    height: 1366px;
+    background-color: white;
+    height: 285px;
+    width: 300px;
+    padding: 13px;
+    margin: 5px;
+    justify-content: space-around;
+}
+.caixa>h3{
+    font-size: 1.3rem;
+}
+.caixa>p{
+    padding: 0;
+    font-size: 1.1rem;
+    font-weight: normal;
+    color: black;
+}
+.produto1{
+    position: relative;
+    float: left;
+}
+.produto2{
+    position: relative;
+    float: left;
+}
+.produto3{
+    position: relative;
+    float: left;
+}
+.produto4{
+    position: relative;
+    float: left;
+}
+.galeria{
+    height: 845px;
+    width: 1366px;
+}
+.txt-galeria{
+   margin-top: 100px;
+   float: left;
+   width: 50%;
+}
+.txt-galeria>h3,p{
+    color: black;
+    text-align: justify;
+    width: fit-content;
+    margin-right: 25px;
+}
+.produtos-imagens{
+    float: right;
+    width: 50%;
+    margin-top: 100px;
+    height: 50%;
+}
+.app{
+    margin-top: 250px;
+    height: 216px;
+    background-color: #3C0C60;
+    border-radius: 20px;
+}
+.txt-app{
+    max-width: 70%;
+}
+#h3app{
+    padding-top: 50px;
+    align-self: center;
+    text-align: justify;
+    color: azure;
+    margin-left: 20px;
+}
+#papp{
+    color: azure;
+    margin-left: 20px;
+    font-weight: none
+    ;
+}
+.app-buttons{
+}
+.apple{
+    border: 0;
+    background-color: transparent;
+    float: right;
+    display: flex;
+}
+.android{
+    border: 0;
+    background-color: transparent;
+    float: right;
+    display: flex;
+}
+@media screen and (max-width:800px) and (orientation:landscape) {
+    .hero{
+        padding-bottom: 10px;
+    }
+    .texto-hero{
+        margin: 0;
+        max-width: 75%;
+        text-align: justify;
+    }
+    .texto-hero h1{
+        font-size: 20px;
+    
+    }
+    .texto-hero p{
+        justify-content: space-around;
+        font-size: 0.5rem;
+        align-items: center;
+    }
+    .scroll{
+        margin-top: 18px;
+    }
+    
+}
